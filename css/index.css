@@ -1,0 +1,315 @@
+body {
+	padding: 0;
+	margin: 0;
+    font-family: Helvetica,sans-serif;
+    background: #F4F4F4;
+    font-size: 14px;
+}
+p,h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+*{
+	-webkit-tap-high-light-color:rgba(0,0,0,0);
+}
+@media screen and (min-width: 320px){
+html{font-size:53.3%!important}
+}
+@media screen and (min-width: 375px){
+  html{font-size:62.5%!important}
+ }
+ @media screen and (min-width: 414px){
+ html{font-size:69%!important}
+ }
+ @media screen and (min-width: 768px){
+ html{font-size:106%!important}
+ }
+.fl{
+	float: left;
+}
+.header{
+	width: 100%;
+	background: #474747;
+	overflow: hidden;
+}
+.x{
+	width: 4%;
+	padding: 2%;
+}
+.x img{
+	width: 100%;
+}
+.logo{
+	width: 10%;
+	margin-left: 1%;
+}
+.logo img{
+	width: 100%;
+	margin-top:5%;
+}
+.text{
+	color: #c5c5c5;
+	margin-left:2%;
+}
+/*头部结束*/
+.sousuo{
+	width: 96%;
+	padding: 2%;
+}
+.sousuo input{
+   width: 96%;
+   border: 0;
+   padding: 2%;
+   border-radius:5px;
+   color: #aeaeae;
+   font-weight: bold;
+}
+/*banner开始*/
+.banner-box{
+	width: 100%;
+}
+.banner{
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+}
+.banner1{
+	width: 100%;
+	margin-top:-1%;
+}
+.banner1 img{
+	width: 100%;
+}
+/*内容开始*/
+/*图标开始*/
+.icon{
+	width: 90%;
+	padding: 5%;
+	margin-bottom:2%;
+	overflow: hidden;
+	background: #fff;
+}
+.icon-item{
+	width: 25%;
+	text-align: center;
+}
+.icon-item img{
+	width: 60%;
+}
+.icon-item h4{
+  color: #636363;
+  margin-top:10%;
+  font-size: 1rem;
+  font-weight: normal;
+}
+/*头条*/
+.zn_tit{
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 2%;
+}
+.tt{
+	width:14%;
+	padding-left: 4%;
+	margin-right: 2%;
+}
+.tt img{
+	width: 100%;
+}
+.zn_tit span{
+	float: left;
+	color: #676767;
+}
+.mo{
+	color: #ff6363;
+	padding-right: 1%
+}
+
+/*360摄像机*/
+.sxj-box{
+    width: 100%;
+    padding: 5% 0;
+	background: #fff;
+	overflow: hidden;
+}
+.sxj{
+	width: 32.66667%;
+	text-align: center;
+}
+.sxj img{
+	width: 100%;
+} 
+.sxj-title{
+    color:#555;
+    padding: 0 2%;
+ }
+ .ell{
+ 	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+ }
+ .bor{
+ 	border-right:1px solid #EAEAEA;
+ 	border-left:1px solid #EAEAEA;
+ }
+.del{
+	font-size: 12px;
+	color: #444;
+	margin-right: 4%;
+	text-decoration: line-through;
+}
+.mx{
+	clear: both;
+	padding: 2%;
+	text-align: center;
+	background: #eee;
+	color: #818181;
+}
+
+/*content*/
+.content{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+.content-item{
+	width: 49.5%;
+	padding-top:5%;
+	padding-bottom: 2%;
+	text-align: center;
+	border-bottom: 1px solid #EAEAEA;
+}
+.br{
+	border-right:1px solid #EAEAEA;
+}
+.content-item img{
+	width: 100%;
+}
+.content-item p{
+    width: 100%;
+    color: #454545;
+    text-align: center;
+}
+.content-item .red{
+	display: block;
+	margin-top:5%;
+	color: #ff4242;
+}
+.xin{
+	width: 100%;
+	clear: both;
+	padding: 3% 0;
+	text-align: center;
+}
+.xin span{;
+	width: 100%;
+	color: #818181;
+}
+.level{
+  font-size: 0;
+  background: #fff;
+}
+.level img{
+  width: 100%;
+}
+.xp{
+	width: 100%;
+}
+.xp p{
+    color: #999;
+    font-size: 1.2rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: .6rem;
+    padding: 0 1.5rem;
+    padding-bottom: 1.4rem;
+}
+.xp span{
+    color: #222;
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 1.2rem;
+    padding: 0 1.5rem;
+}
+.sjpj img{
+  width:100%;
+  overflow: hidden;
+  }
+.sj p{
+	text-align: left;
+	padding-left: 1rem;
+}
+.sj span{
+	text-align: left;
+	padding-left: 1rem;
+}
+
+.bottom{
+  padding: 5%;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+  overflow: hidden;
+  background: #fff;
+  }
+  .biankuang_lr{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  .bott{
+    width: 32.666667%;
+    overflow: hidden;
+}
+.bott p{
+      font-size: 2.3rem;
+}
+.bott a{
+      font-size: 1.4rem;
+}
+.lx{
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 2.3rem;
+  background: #fff;
+}
+.cg{
+  height: 42px;
+}
+#ic1{
+	font-size: 2.1rem;
+}
+#ic2{
+	font-size: 2.5rem;
+}
+
+footer{
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  background: #fff;
+  border-top:1px solid #ccc;
+}
+  .footitem{
+    width: 25%;
+    text-align: center;
+    padding-top: 3%;
+    color: #ccc;
+    font-size:1.8rem;
+}
+.footitem a{
+      background: #fff;
+      color: #ccc;
+}
+.footitem span{
+      font-size: 1.4rem;
+      line-height: 2rem;
+}
+.chack p{
+	color:#3AB660;
+}
+/*内容结束*/
